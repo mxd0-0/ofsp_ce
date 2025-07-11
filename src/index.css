@@ -3,8 +3,8 @@
 @import "tailwindcss";
 
 @theme {
-    --color-background: #0D1117; /* Dark background */
-    --color-card: #161B22;       /* Slightly lighter card background */
+    --color-background: #141A1F; /* Dark background */
+    --color-card: #202931;       /* Slightly lighter card background */
     --color-primary: #3B82F6;    /* Main blue for buttons */
     --color-accent: #2DD4BF;     /* Teal/Turquoise for CTAs */
     --color-text-light: #F0F6FC;  /* Almost white text */
@@ -21,4 +21,16 @@
 
 body {
     @apply bg-background text-text-light font-sans;
+}
+
+/* In src/index.css or your global styles */
+.bg-mobile-waves {
+    background-image: url('/assets/mobile_waves.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-hero {
+  background-image: url('/assets/b_hero.svg'); /* ✅ correct path */
 }

@@ -2,7 +2,11 @@
 
 const MobileApp = () => {
     return (
-        <section className="py-20 md:py-32">
+<section
+  className="py-20 md:py-32 bg-no-repeat bg-cover bg-center"
+  style={{ backgroundImage: 'url("/assets/mobile_waves.svg")' }}
+>
+
             <div className="container grid items-center gap-12 px-4 mx-auto max-w-7xl md:grid-cols-2">
                 <div className="flex flex-col items-center text-center md:items-start md:text-left">
                     <h2 className="text-3xl font-bold tracking-tight text-white md:text-4xl">

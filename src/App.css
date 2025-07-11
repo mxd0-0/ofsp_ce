@@ -1,8 +1,14 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 1rem 3rem 0.5rem;
   text-align: center;
+}
+.bg-mobile-waves {
+    background-image: url('/assets/mobile_waves.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .logo {

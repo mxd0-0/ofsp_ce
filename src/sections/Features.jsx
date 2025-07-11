@@ -1,4 +1,3 @@
-// src/sections/Features.jsx
 
 const featureItems = [
     {
@@ -25,8 +24,8 @@ const Features = () => {
                 {featureItems.map((item) => (
                     <div key={item.title} className="flex flex-col items-center p-6 text-center transition-transform duration-300 transform rounded-lg hover:-translate-y-2">
                         <img src={item.icon} alt={`${item.title} icon`} className="w-16 h-16 mb-6" />
-                        <h3 className="mb-2 text-2xl font-bold text-white">{item.title}</h3>
-                        <p className="text-text-muted">{item.description}</p>
+                        <h3 className="mb-2 text-lg md:text-xl lg:text-2xl font-bold text-white">{item.title}</h3>
+                        <p className="text-text-muted text-sm  md:text-lg lg:text-xl">{item.description}</p>
                     </div>
                 ))}
             </div>
