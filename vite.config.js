@@ -8,4 +8,11 @@ export default defineConfig({
   plugins: [react(),
   tailwindcss()],
   base: '/ofsp_ce/',
+  build: {
+    rollupOptions: {
+      input: {
+        main: './index.html'
+      }
+    }
+  }
 })
