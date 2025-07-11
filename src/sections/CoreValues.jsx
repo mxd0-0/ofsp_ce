@@ -1,18 +1,22 @@
 // src/sections/CoreValues.jsx
 
+import iconSecurity from '../assets/icon-security-first.svg';
+import iconTrading from '../assets/icon-great-trading.svg';
+import iconTech from '../assets/icon-robust-tech.svg';
+
 const values = [
     {
-        icon: "/assets/icon-security-first.svg",
+        icon: iconSecurity,
         title: "Security First",
         description: "When choosing an exchange, trust matters. That's why security has been and will always be our top consideration.",
     },
     {
-        icon: "/assets/icon-great-trading.svg",
+        icon: iconTrading,
         title: "Great Trading",
         description: "We believe in the power and potential of blockchain to provide groundbreaking solutions across industries and beyond crypto.",
     },
     {
-        icon: "/assets/icon-robust-tech.svg",
+        icon: iconTech,
         title: "Robust Technology",
         description: "When choosing an exchange, trust matters. That's why security has been and will always be our top consideration.",
     },
