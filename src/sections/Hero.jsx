@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import dashboardPreview from "../assets/dashboard-preview.png";
-import heroBg from "../assets/bg_hero.svg";
+import heroBg from "../assets/Bg_hero.svg";
 
 
 const containerVariants = {
