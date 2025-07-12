@@ -7,12 +7,5 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(),
   tailwindcss()],
-  base: '/ofsp_ce/',
-  build: {
-    rollupOptions: {
-      input: {
-        main: './index.html'
-      }
-    }
-  }
+  base: '/ofsp_ce/'
 })
