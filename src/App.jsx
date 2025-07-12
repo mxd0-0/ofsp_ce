@@ -21,9 +21,7 @@ function App() {
                 <Markets />
                 <MobileApp />
                 <Leader />
-                <CoreValues />
                 <Innovation />
-                <Cta />
             </main>
             <Footer />
         </div>

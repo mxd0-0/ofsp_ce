@@ -1,4 +1,7 @@
 import { motion } from 'framer-motion';
+import dashboardPreview from "../assets/dashboard-preview.png";
+import heroBg from "../assets/bg_hero.svg";
+
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -38,7 +41,7 @@ const Hero = () => {
   return (
     <section
       className="relative overflow-hidden pt-20 pb-32 md:pt-28 md:pb-40 bg-no-repeat bg-cover bg-top"
-      style={{ backgroundImage: 'url("/assets/b_hero.svg")' }}
+      style={{ backgroundImage: `url(${heroBg})` }}
     >
       <motion.div
         className="container grid items-center gap-12 px-4 mx-auto max-w-7xl md:grid-cols-2"
@@ -80,7 +83,7 @@ const Hero = () => {
 
         <motion.div className="flex justify-center" variants={imageVariants}>
           <img
-            src="/src/assets/dashboard-preview.png"
+              src={dashboardPreview}
             alt="Bittrex Global Dashboard Preview"
             className="rounded-lg shadow-2xl shadow-primary/10 max-w-full h-auto"
           />
@@ -89,5 +92,4 @@ const Hero = () => {
     </section>
   );
 };
-
 export default Hero;

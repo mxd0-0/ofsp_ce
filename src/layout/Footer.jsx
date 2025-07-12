@@ -1,24 +1,28 @@
 import logo from '../assets/ofspce.svg';
+import bgFooter from "../assets/bg_footer.svg";
 
 const FooterLink = ({ href, children }) => (
-    <a href={href} className="transition text-text-muted hover:text-text-light">{children}</a>
+    <a href={href} className="transition text-text-muted hover:text-text-light">
+        {children}
+    </a>
 );
 
 const Footer = () => {
     return (
-            <footer
+        <footer
             className="relative py-16 border-t border-border bg-no-repeat bg-cover"
             style={{
-                backgroundImage: 'url("/assets/bg_footer.svg")',
-                backgroundPosition: '-100px -90px', 
+                backgroundImage: `url(${bgFooter})`,
+                backgroundPosition: 'center top',
+                backgroundSize: 'cover',
             }}
-            >
+        >
             <div className="container px-4 mx-auto max-w-7xl">
                 <div className="grid gap-12 md:grid-cols-5">
                     <div className="md:col-span-2">
-                    <a href="#">
-                        <img src={logo} alt="OFSP Logo" className="h-8 w-auto" />
-                    </a>
+                        <a href="#">
+                            <img src={logo} alt="OFSP Logo" className="h-8 w-auto" />
+                        </a>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:grid-cols-4 md:col-span-3">
                         <div>
