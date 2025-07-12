@@ -25,14 +25,3 @@ body {
     @apply bg-background text-text-light font-sans;
 }
 
-/* In src/index.css or your global styles */
-.bg-mobile-waves {
-    background-image: url('/assets/mobile_waves.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.bg-hero {
-  background-image: url('/assets/b_hero.svg'); /* ✅ correct path */
-}

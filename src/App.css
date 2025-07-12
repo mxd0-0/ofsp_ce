@@ -4,12 +4,6 @@
   padding: 2rem 1rem 3rem 0.5rem;
   text-align: center;
 }
-.bg-mobile-waves {
-    background-image: url('/assets/mobile_waves.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 .logo {
   height: 6em;
